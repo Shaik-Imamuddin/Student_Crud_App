@@ -1,0 +1,91 @@
+.studentlist-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 20px 0 10px;
+}
+
+.studentlist-wrapper {
+  max-width: 900px;
+  margin: 20px auto;
+  background: #F5EEDC;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.studentlist-filter-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.studentlist-filter-box input,
+.studentlist-filter-box select,
+.studentlist-filter-box button {
+  height: 45px;
+  padding: 0px 14px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.studentlist-filter-box button {
+  background: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.studentlist-filter-box button:hover {
+  background: #0056b3;
+}
+
+.student-table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.student-table th, 
+.student-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-table th {
+  background: #f4f4f4;
+  font-weight: bold;
+}
+
+.edit {
+  background: #ffc107;
+  padding: 6px 12px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.delete {
+  background: #dc3545;
+  padding: 6px 12px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
